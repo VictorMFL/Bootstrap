@@ -13,27 +13,42 @@
     <link rel="stylesheet" href="estilo/style.css" />
   </head>
   <body>
-
     <!-- Modal -->
-    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modallLoginTitulo" aria-hidden="true">
+    <div
+      class="modal fade"
+      id="modalLogin"
+      tabindex="-1"
+      aria-labelledby="modallLoginTitulo"
+      aria-hidden="true"
+    >
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="modal-header">
-            <h1 class="modal-title fs-5" id="modallLoginTitulo">Entre na Sua Conta</h1>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <h1 class="modal-title fs-5" id="modallLoginTitulo">
+              Entre na Sua Conta
+            </h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
           </div>
           <div class="modal-body">
             <form>
               <div class="form-group">
                 <label for="loginEmail">Email address</label>
-                <input type="email" class="form-control" id="loginEmail">
+                <input type="email" class="form-control" id="loginEmail" />
               </div>
               <div class="form-group">
                 <label for="loginSenha">Senha</label>
-                <input type="password" class="form-control" id="loginSenha">
+                <input type="password" class="form-control" id="loginSenha" />
               </div>
-              <button type="submit" class="btn btn-primary mt-3 d-block">Entrar na Conta</button>
-              <small class="form-text text-muted">Esqueceu a senha?
+              <button type="submit" class="btn btn-primary mt-3 d-block">
+                Entrar na Conta
+              </button>
+              <small class="form-text text-muted"
+                >Esqueceu a senha?
                 <a href="#">Clique aqui.</a>
               </small>
             </form>
@@ -89,7 +104,13 @@
                 <a class="nav-link" href="contato.html">Contato</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
+                <a
+                  class="nav-link"
+                  href="#"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modalLogin"
+                  >Login</a
+                >
               </li>
               <li class="nav-item">
                 <a class="btn btn-outline-primary mx-md-2" href="inscricao.html"
@@ -214,7 +235,9 @@
           </div>
 
           <div class="row">
-            <div class="col-xl-4 col-md-6 d-flex flex-column justify-content-center">
+            <div
+              class="col-xl-4 col-md-6 d-flex flex-column justify-content-center"
+            >
               <div class="d-flex justify-content-center" style="height: 100px">
                 <img src="img/icones/passaporte.svg" alt="Passaporte" />
               </div>
@@ -246,7 +269,7 @@
                 accusantium.
               </p>
             </div>
-          
+
             <div class="col-xl-4 col-md-6 my-2">
               <div class="d-flex justify-content-center" style="height: 100px">
                 <img src="img/icones/turismo.svg" alt="Turismo" />
@@ -278,12 +301,12 @@
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt,
                 accusantium.
               </p>
-          </div>    
-          <a href="planos.html" class="btn btn-primary btn-lg mt-4"
-            >Comprar Plano</a
-          >
+            </div>
+            <a href="planos.html" class="btn btn-primary btn-lg mt-4"
+              >Comprar Plano</a
+            >
+          </div>
         </div>
-      </div>
       </section>
 
       <section id="home-quote" class="p-md-5">
@@ -306,46 +329,128 @@
           <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
         </div>
         <div class="row justify-content-center">
-          <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta" >
-
+          <div
+            class="col-md-6"
+            id="perguntasFrequentes"
+            data-children=".pergunta"
+          >
             <div class="pergunta py-2">
-              <a href="#pergunta1" class="lead" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pergunta1">É possível cancelar a viagem? </a>
-              <div class="collapse show" id="pergunta1" role="tabpanel" data-parent="#perguntasFrequentes">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero! Maxime quibusdam consequatur qui tenetur? Repudiandae quidem unde architecto exercitationem cum nemo impedit sit.
+              <a
+                href="#pergunta1"
+                class="lead"
+                data-bs-toggle="collapse"
+                aria-expanded="true"
+                aria-controls="pergunta1"
+                >É possível cancelar a viagem?
+              </a>
+              <div
+                class="collapse show"
+                id="pergunta1"
+                role="tabpanel"
+                data-parent="#perguntasFrequentes"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero!
+                  Maxime quibusdam consequatur qui tenetur? Repudiandae quidem
+                  unde architecto exercitationem cum nemo impedit sit.
                 </p>
               </div>
             </div>
 
             <div class="pergunta py-2">
-              <a href="#pergunta2" class="lead" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pergunta2">Qual é a garantia que tenho se perder o voo?</a>
-              <div class="collapse show" id="pergunta2" role="tabpanel" data-parent="#perguntasFrequentes">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero! Maxime quibusdam consequatur qui tenetur? Repudiandae quidem unde architecto exercitationem cum nemo impedit sit.
+              <a
+                href="#pergunta2"
+                class="lead"
+                data-bs-toggle="collapse"
+                aria-expanded="true"
+                aria-controls="pergunta2"
+                >Qual é a garantia que tenho se perder o voo?</a
+              >
+              <div
+                class="collapse show"
+                id="pergunta2"
+                role="tabpanel"
+                data-parent="#perguntasFrequentes"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero!
+                  Maxime quibusdam consequatur qui tenetur? Repudiandae quidem
+                  unde architecto exercitationem cum nemo impedit sit.
                 </p>
               </div>
             </div>
 
             <div class="pergunta py-2">
-              <a href="#pergunta3" class="lead" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pergunta3">Qual a principal forma de viagem?</a>
-              <div class="collapse show" id="pergunta3" role="tabpanel" data-parent="#perguntasFrequentes">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero! Maxime quibusdam consequatur qui tenetur? Repudiandae quidem unde architecto exercitationem cum nemo impedit sit.
+              <a
+                href="#pergunta3"
+                class="lead"
+                data-bs-toggle="collapse"
+                aria-expanded="true"
+                aria-controls="pergunta3"
+                >Qual a principal forma de viagem?</a
+              >
+              <div
+                class="collapse show"
+                id="pergunta3"
+                role="tabpanel"
+                data-parent="#perguntasFrequentes"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero!
+                  Maxime quibusdam consequatur qui tenetur? Repudiandae quidem
+                  unde architecto exercitationem cum nemo impedit sit.
                 </p>
               </div>
             </div>
 
             <div class="pergunta py-2">
-              <a href="#pergunta4" class="lead" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pergunta4">Qual o melhor destino de viagem?</a>
-              <div class="collapse show" id="pergunta4" role="tabpanel" data-parent="#perguntasFrequentes">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero! Maxime quibusdam consequatur qui tenetur? Repudiandae quidem unde architecto exercitationem cum nemo impedit sit.
+              <a
+                href="#pergunta4"
+                class="lead"
+                data-bs-toggle="collapse"
+                aria-expanded="true"
+                aria-controls="pergunta4"
+                >Qual o melhor destino de viagem?</a
+              >
+              <div
+                class="collapse show"
+                id="pergunta4"
+                role="tabpanel"
+                data-parent="#perguntasFrequentes"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero!
+                  Maxime quibusdam consequatur qui tenetur? Repudiandae quidem
+                  unde architecto exercitationem cum nemo impedit sit.
                 </p>
               </div>
             </div>
 
-              <div class="pergunta py-2">
-                <a href="#pergunta5" class="lead" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pergunta5">Vocês dão descontos para grupos grandes?</a>
-                <div class="collapse show" id="pergunta5" role="tabpanel" data-parent="#perguntasFrequentes">
-                  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero! Maxime quibusdam consequatur qui tenetur? Repudiandae quidem unde architecto exercitationem cum nemo impedit sit.
-                  </p>
-                </div>
+            <div class="pergunta py-2">
+              <a
+                href="#pergunta5"
+                class="lead"
+                data-bs-toggle="collapse"
+                aria-expanded="true"
+                aria-controls="pergunta5"
+                >Vocês dão descontos para grupos grandes?</a
+              >
+              <div
+                class="collapse show"
+                id="pergunta5"
+                role="tabpanel"
+                data-parent="#perguntasFrequentes"
+              >
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  Reprehenderit nulla quasi nesciunt magnam! Dicta, eius libero!
+                  Maxime quibusdam consequatur qui tenetur? Repudiandae quidem
+                  unde architecto exercitationem cum nemo impedit sit.
+                </p>
               </div>
             </div>
           </div>
@@ -353,7 +458,9 @@
 
         <div class="text-center my-4">
           <p class="small m-1">FALE CONOSCO PARA MAIS DÚVIDAS</p>
-          <a href="contato.htmll" class="btn btn-primary btn-lg">Entre em Contato</a>
+          <a href="contato.htmll" class="btn btn-primary btn-lg"
+            >Entre em Contato</a
+          >
         </div>
       </section>
     </main>
@@ -390,9 +497,24 @@
           <div class="col-md-2 col-4">
             <h4 class="h6">REDES-SOCIAIS</h4>
             <ul class="list-unstyled">
-              <li><a href="#" class="btn btn-outline-secondary btn-sm mb-2">Facebook</a></li>
-              <li><a href="#" class="btn btn-outline-secondary btn-sm mb-2">Twitter</a></li>
-              <li><a href="#" class="btn btn-outline-secondary btn-sm mb-2" style="max-width: 140px;">YouTube</a></li>
+              <li>
+                <a href="#" class="btn btn-outline-secondary btn-sm mb-2"
+                  >Facebook</a
+                >
+              </li>
+              <li>
+                <a href="#" class="btn btn-outline-secondary btn-sm mb-2"
+                  >Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#"
+                  class="btn btn-outline-secondary btn-sm mb-2"
+                  style="max-width: 140px"
+                  >YouTube</a
+                >
+              </li>
             </ul>
           </div>
         </div>
